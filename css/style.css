@@ -58,8 +58,7 @@ select {
 	height: 456px;
 	background: url('../assets/computer.jpg') no-repeat #3c4955;
 	padding-top: 173px;
-	/*position: absolute;*/
-	background-size: 100%;
+	background-size: cover;
 }
 .ba-main{
 	height: 1490px;
@@ -83,7 +82,7 @@ button{
 	width: 122px;
 	height: 70px;
 	position: absolute;
-	left: 274px;
+	left: 20.3%;
 	top: 25px;
 }
 .title-style{
@@ -108,7 +107,7 @@ button{
 	color:  #48bf72;
 	border: 2px solid #48bf72;
 	position: absolute;
-	left: 626px;
+	left: 46.4%;
 	bottom: 126px;
 }
 .ba-header__button:hover{
@@ -117,7 +116,7 @@ button{
 .header-nav{
 	position: absolute;
 	top: 45px;
-	left: 680px;
+	left: 50.4%;
 }
 .header-nav__link{
 	text-decoration: none;
@@ -140,7 +139,7 @@ button{
 
 /*Main*/
 .main-nav{
-	margin-left: 402px;
+	margin-left: 29.8%;
 	padding-top: 64px;
 	margin-bottom: 36px;
 }
@@ -250,7 +249,7 @@ div:nth-child(4) .main-content__img{
 	line-height: 18px
 }
 .text-margin{
-	margin-left: 680px;
+	margin-left: 50.4%;
 }
 .main-info__button{
 	width: 106px;
@@ -264,17 +263,16 @@ div:nth-child(4) .main-content__img{
 	color: #fff;
 }
 .main-form{
-	width: 481px;
-	margin: auto;
+	margin-left: 32.2%;
 }
 .main-form__title{
 	font-family: 'BigJohn', sans-serif;
 	color:  #48bf72;
 	font-size: 19px;
 	font-weight: 400;
-	text-align: center;
 	margin-top: 25px;
 	margin-bottom: 25px;
+	margin-left: 17.5%;
 }
 .main-form__element{
 	border-radius: 2px;
@@ -286,13 +284,18 @@ div:nth-child(4) .main-content__img{
 	padding-left: 20px;
 }
 input{
-	width: 199px;
+	width: 22%;
 	height: 35px;
 	margin-right: 20px;
 	margin-bottom: 20px;
+
 }
 input[type="email"]{
 	margin-right: 0;
+}
+textarea{
+	width: 49.8%;
+	height: 160px;
 }
 .main-form__img{
 	width: 35px;
@@ -336,7 +339,7 @@ input[type="email"]{
 .main-form__button{
 	border: none;
 	background-color: #48bf72;
-	width: 480px;
+	width: 53%;
 	height: 35px;
 	margin-top: 20px;
 	color: #fff;
@@ -353,7 +356,7 @@ input[type="email"]{
 .ba-footer__info{
 	color:  #fff;
 	font-size: 11px;
-	margin-left: 275px;
+	margin-left: 20.4%;
 	display: inline-block;
 }
 .ba-footer__social{
@@ -362,7 +365,7 @@ input[type="email"]{
 	margin-right: 28px;
 }
 .ba-footer section{
-	margin-left: 310px;
+	margin-left: 23%;
 	display: inline-block;
 	position: relative;
 	top: 10px;
